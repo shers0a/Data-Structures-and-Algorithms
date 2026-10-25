@@ -90,7 +90,7 @@ class Lista{
             delete dr;
             return key;
         }
-        
+
         bool empty() const { 
             return top == nullptr;
         }
@@ -113,4 +113,5 @@ class Lista{
 int main(){
     std::ios_base::sync_with_stdio(false);
 
+    return 0;
 }
