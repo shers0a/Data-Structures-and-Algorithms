@@ -40,7 +40,7 @@ MatriceRara produs(const MatriceRara& A, const MatriceRara& B){
     while( i < temp.size() ){
         int lin = std::get<0>(temp[i]);
         int col = std::get<1>(temp[i]);
-        int suma = 0;
+        int suma = 0;   
 
         size_t j = i;
         while( j < temp.size() &&
